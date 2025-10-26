@@ -1,0 +1,35 @@
+.footer {
+      text-align: center;
+      padding: 20px;
+      background-color: whitesmoke;
+      padding-bottom: 150px;
+  }
+  
+  .footer-logo img {
+      width: 200px; /* Adjust the size as needed */
+      height: 80px;
+      margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+      list-style-type: none;
+      display: inline-flex;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .footer-links ul li {
+      margin: 10px;
+  }
+  
+  
+  .footer-links ul li a {
+      text-decoration: none;
+      color: #000; 
+  }
+  
+  .footer-links ul li a:hover {
+      text-decoration: underline;
+  }
+  

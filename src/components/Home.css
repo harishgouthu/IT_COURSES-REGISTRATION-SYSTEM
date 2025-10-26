@@ -1,0 +1,74 @@
+/* .hero-carousel .slick-slide {
+  position: relative;
+}
+
+.hero-carousel .slick-slide .hero-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.hero-carousel .slick-dots {
+  bottom: 10px;
+}
+
+.hero-carousel .slick-dots li button::before {
+  color: white;
+} */
+
+
+
+/* .hero-carousel .slick-slide {
+  position: relative;
+}
+
+.hero-carousel .slick-slide .hero-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; 
+}
+
+.hero-carousel .slick-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.hero-carousel .slick-dots {
+  bottom: 10px; 
+}
+
+.hero-carousel .slick-dots li button::before {
+  color: white;
+} */
+
+
+.hero-carousel .slick-slide {
+  position: relative;
+  overflow: hidden; /* Prevents images from overflowing */
+}
+
+.hero-carousel .slick-slide .hero-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* Adjust height here */
+  overflow: hidden; /* Ensures content does not overflow */
+}
+
+.hero-carousel .slick-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image covers the container */
+  object-position: top 20%; /* Adjust image positioning */
+}
+
+.hero-carousel .slick-dots {
+  bottom: 10px; /* Positioning of dots */
+}
+
+.hero-carousel .slick-dots li button::before {
+  color: white;
+}
